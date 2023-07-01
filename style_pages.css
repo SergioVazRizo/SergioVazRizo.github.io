@@ -1,0 +1,215 @@
+/* Estilos generales */
+
+body {
+    background-color: darkslategrey;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: white;
+    line-height: 22px;
+    line-height: 1.5;
+  }
+  
+  ul, ol {
+    color: white;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  
+  li {
+    color: white;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* Estilos del menú */
+.menu {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-image: url(img/fondo_index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: darkcyan;
+    font-family: unset;/*4*/
+}
+
+.logo {
+    animation: rotateLogo 5s infinite linear;
+}
+
+@keyframes rotateLogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  /* Estilos de la sección de información personal */
+  
+  .infPersonal {
+    margin-left: 8%;
+    margin-top: 10px;
+  }
+  
+  .infPersonal h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .infPersonal b{
+    border: 2px solid wheat;
+    border-radius: 5px;
+  }
+  
+  /* Estilos de la sección de educación */
+  
+  .educacion {
+    margin-left: 8%;
+    margin-top: 10px;
+    box-shadow: 5px 10px;/* Sombra a un div*/
+  }
+  
+  .educacion h2 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .educacion table {
+    width: 100%;
+    border: 5px solid darkgrey;
+    margin-top: 10px;
+  }
+  
+  .educacion table th,
+  .educacion table td {
+    padding: 5px;
+    border: 1px solid #333;
+  }
+  
+  /* Estilos de la sección de deportes */
+  
+  .deportes {
+    margin: 30px;
+  }
+  
+  .deportes h2 {
+    margin-bottom: 10px;
+  }
+  
+  .deportes map {
+    margin-top: 20px;
+  }
+  
+  /* Estilos de la sección de medallas */
+  
+  .misMedallas {
+    margin: 30px;
+  }
+  
+  .misMedallas h2 {
+    margin-bottom: 10px;
+  }
+  
+  .misMedallas map {
+    margin-top: 20px;
+  }
+  
+  /* Estilos de la sección de lugares para visitar */
+  
+  .lugares_visitar {
+    margin: 30px;
+  }
+  
+  .lugares_visitar h2 {
+    margin-bottom: 10px;
+  }
+  
+  .lugares_visitar dl {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .lugares_visitar dt {
+    font-weight: bold;
+  }
+  
+  /* Estilos de la sección de lugares que no me gustaría visitar */
+  
+  .lugares_no_visitar {
+    margin: 30px;
+  }
+  
+  .lugares_no_visitar h2 {
+    margin-bottom: 10px;
+  }
+  
+  .lugares_no_visitar img {
+    margin-top: 20px;
+  }
+  /* Estilos para la tabla de familia*/ 
+  th, td {
+    background-color: aquamarine;
+    border: black solid;
+}
+  
+  /* Estilos del pie de página */
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*5*/
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(10, 241, 172));
+    text-align: center;
+}
+  
